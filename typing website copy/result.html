@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice Results</title>
+    <link rel="stylesheet" href="resultstyles.css">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Typing Results</h1>
+        <div class="result-details">
+            <div class="result-stat">
+                <p>WPM</p>
+                <span id="result-wpm">0</span>
+            </div>
+            <div class="result-stat">
+                <p>Accuracy</p>
+                <span id="result-accuracy">100%</span>
+            </div>
+            <div class="result-stat">
+                <p>Raw</p>
+                <span id="result-raw">0</span>
+            </div>
+            <div class="result-stat">
+                <p>Characters</p>
+                <span id="result-characters">0/0/0/0</span>
+            </div>
+            <div class="result-stat">
+                <p>Consistency</p>
+                <span id="result-consistency">0%</span>
+            </div>
+            <div class="result-stat">
+                <p>Time</p>
+                <span id="result-time">0s</span>
+            </div>
+        </div>
+        <div class="graph-container" id="graph-container"></div>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+    <script src="result.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* Add these styles for the result page */
+.result-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.result-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.result-stat {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.result-stat p {
+    font-size: 18px;
+    color: #888;
+}
+
+.result-stat span {
+    font-size: 32px;
+    color: #fdd835;
+}
+
+.graph-container {
+    margin-top: 20px;
+    height: 200px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}

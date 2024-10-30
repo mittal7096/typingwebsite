@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Practice</h1>
+        <div class="settings">
+            <button id="punctuation-toggle" class="toggle-btn" aria-pressed="false">Punctuation</button>
+            <button id="numbers-toggle" class="toggle-btn" aria-pressed="false">Numbers</button>
+            <button class="word-limit-btn active" data-limit="30">30 Words</button>
+            <button class="word-limit-btn" data-limit="50">50 Words</button>
+            <button class="word-limit-btn" data-limit="100">100 Words</button>
+            <select id="mode-select" aria-label="Select typing mode">
+                <option value="normal">Normal</option>
+                <option value="zen">Zen</option>
+                <option value="quote">Quote</option>
+            </select>
+        </div>
+        <div class="typing-area" id="typing-area">
+            <div id="text-display" aria-live="polite"></div>
+        </div>
+        <div class="results">
+            <p>WPM: <span id="wpm">0</span> | Accuracy: <span id="accuracy">100%</span></p>
+        </div>
+        <div id="timer">Time: <span id="timer-display">60</span>s</div>
+        <button id="submit-btn" class="submit-btn" onclick="showResultPage()">Submit</button>
+    </div>
+    <div class="footer">
+        <a href="#" id="restart-btn">Restart (Ctrl + R)</a>
+        <a href="#">Contact</a>
+        <a href="#">Support</a>
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
